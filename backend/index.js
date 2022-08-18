@@ -31,7 +31,7 @@ async function main() {
   // JSON no body das requisições
   app.use(express.json());
 
-  /*
+  
   app.get("/", function (req, res) {
     res.send("Hello, World!");
   });
@@ -39,7 +39,7 @@ async function main() {
   app.get("/oi", function (req, res) {
     res.send("Olá, mundo!");
   });
-*/
+
 
   // Nosso backend armazena as pontuações das jogadas
   // Criar a lista com as pontuações
